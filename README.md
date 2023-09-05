@@ -48,9 +48,9 @@ This README provides instructions on how to set up and run the Todo application,
 
 <h4>Create a .env file in the backend folder:</h4>
 
-- PORT=<Your-Port>
-- MONGODB_URI=<Your-Mongodb-Uri>
-- Replace <your-mongodb-uri> with the connection URI for your MongoDB database.
+- PORT=8080
+- MONGODB_URI=Your-Mongodb-Uri
+- Replace your-MongoDB-uri with the connection URI for your MongoDB database.
 
 <h4>Frontend Configuration</h4>
 
