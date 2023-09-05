@@ -75,7 +75,7 @@ This README provides instructions on how to set up and run the Todo application,
 
 Once the application is running, you can access it in your web browser at http://localhost:3000. You can perform the following CRUD operations:
 
-- Create: Add new tasks by entering the task description and clicking the "Add Task" button.
+- Create: Add new tasks by entering the task description and clicking the "Add Todo" button.
 
 - Read: View the list of tasks on the main page.
 
