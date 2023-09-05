@@ -3,99 +3,69 @@ This README provides instructions on how to set up and run the Todo application,
 
 <h2>Table of Contents -</h2> 
 <h4>Prerequisites -</h4> 
-
 - Installation
 - Configuration
-- Running the Application
-- Usage
-- 
-Before you begin, ensure you have met the following requirements:
 
-Node.js: Make sure you have Node.js installed on your machine. You can download it from https://nodejs.org/.
+<h2>Before you begin, ensure you have met the following requirements:</h2>  
+- Node.js: Make sure you have Node.js installed on your machine. You can download it from https://nodejs.org/.
+- MongoDB: You will need a running MongoDB server. You can download and install MongoDB from https://www.mongodb.com/try/download/community or use a cloud-hosted MongoDB service.
 
-MongoDB: You will need a running MongoDB server. You can download and install MongoDB from https://www.mongodb.com/try/download/community or use a cloud-hosted MongoDB service.
+<h2>Installation -</h2>
 
-<h4>Installation -</h4>
-Clone this repository to your local machine using Git:
+<h4>Clone this repository to your local machine using Git:</h4>
+- bash
+- git clone https://github.com/Hirak-Debadhikary/EmergentX-CRUD.git
 
-bash
-Copy code
-git clone https://github.com/your-username/todo-app.git
-Navigate to the backend folder:
+<h4>Navigate to the backend folder:</h4>
+- bash
+- cd backend
 
-bash
-Copy code
-cd todo-app/backend
-Install backend dependencies by running the following command:
+<h4>Install backend dependencies by running the following command:</h4>
+- bash
+- npm install
 
-bash
-Copy code
-npm install
-Return to the root folder:
+<h4>Return to the root folder:</h4>
+- bash
+- cd ..
 
-bash
-Copy code
-cd ..
-Navigate to the frontend folder:
+<h4>Navigate to the frontend folder:</h4>
+- bash
+- cd frontend
 
-bash
-Copy code
-cd frontend
-Install frontend dependencies by running the following command:
+<h4>Install frontend dependencies by running the following command:</h4>
+- bash
+- npm install
+- Configuration
+- Backend Configuration
 
-bash
-Copy code
-npm install
-Configuration
-Backend Configuration
-Create a .env file in the backend folder:
+<h4>Create a .env file in the backend folder:</h4>
+- PORT=<Your-Port>
+- MONGODB_URI=<Your-Mongodb-Uri>
+- Replace <your-mongodb-uri> with the connection URI for your MongoDB database.
 
-plaintext
-Copy code
-PORT=3001
-MONGODB_URI=<your-mongodb-uri>
-Replace <your-mongodb-uri> with the connection URI for your MongoDB database.
+<h4>Frontend Configuration</h4>
+- No additional configuration is required for the front end.
 
-Frontend Configuration
-No additional configuration is required for the frontend.
+<h4>Running the Backend Server</h4>
+- Start the backend server by navigating to the backend folder and running:
+- bash
+- cd backend
+- npm start
+- This will start the Node.js server on your port.
 
-Running the Application
-Start the backend server by navigating to the backend folder and running:
+<h4>In a separate terminal, navigate to the frontend folder and start the React development server:</h4>
+- bash
+- cd frontend
+- npm start
+- This will start the React application on port 3000 and open it in your default web browser.
 
-bash
-Copy code
-npm start
-This will start the Node.js server on port 3001.
-
-In a separate terminal, navigate to the frontend folder and start the React development server:
-
-bash
-Copy code
-npm start
-This will start the React application on port 3000 and open it in your default web browser.
-
-Usage
+<h4>Usage</h4>
 Once the application is running, you can access it in your web browser at http://localhost:3000. You can perform the following CRUD operations:
 
-Create: Add new tasks by entering the task description and clicking the "Add Task" button.
+- Create: Add new tasks by entering the task description and clicking the "Add Task" button.
 
-Read: View the list of tasks on the main page.
+- Read: View the list of tasks on the main page.
 
-Update: Click the "Edit" button next to a task to edit its description.
+- Update: Click the "Edit" button next to a task to edit its description.
 
-Delete: Click the "Delete" button next to a task to remove it from the list.
-
-Contributing
-If you would like to contribute to this project, please follow these guidelines:
-
-Fork the repository.
-
-Create a new branch for your feature or bug fix: git checkout -b feature-name.
-
-Make your changes and commit them with descriptive commit messages.
-
-Push your changes to your fork: git push origin feature-name.
-
-Create a pull request to the main branch of the original repository.
-
-Ensure your code passes any relevant tests and linting.
+- Delete: Click the "Delete" button next to a task to remove it from the list.
