@@ -1,22 +1,21 @@
-*Todo Application README* - 
+<h1>Todo Application README -</h1> 
 This README provides instructions on how to set up and run the Todo application, which is built using React.js, Chakra-UI for the front end, and Node.js, Express.js, and MongoDB for the backend. The application allows users to perform CRUD (Create, Read, Update, Delete) operations on tasks.
 
-Table of Contents
-Prerequisites
-Installation
-Configuration
-Running the Application
-Usage
-Contributing
-License
-Prerequisites
+<h2>Table of Contents -</h2> 
+<h4>Prerequisites -</h4> 
+
+- Installation
+- Configuration
+- Running the Application
+- Usage
+- 
 Before you begin, ensure you have met the following requirements:
 
 Node.js: Make sure you have Node.js installed on your machine. You can download it from https://nodejs.org/.
 
 MongoDB: You will need a running MongoDB server. You can download and install MongoDB from https://www.mongodb.com/try/download/community or use a cloud-hosted MongoDB service.
 
-Installation
+<h4>Installation -</h4>
 Clone this repository to your local machine using Git:
 
 bash
