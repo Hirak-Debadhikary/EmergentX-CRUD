@@ -1,4 +1,4 @@
-#Todo Application README - 
+###Todo Application README - 
 This README provides instructions on how to set up and run the Todo application, which is built using React.js, Chakra-UI for the front end, and Node.js, Express.js, and MongoDB for the backend. The application allows users to perform CRUD (Create, Read, Update, Delete) operations on tasks.
 
 Table of Contents
