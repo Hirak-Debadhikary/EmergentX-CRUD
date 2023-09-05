@@ -42,8 +42,8 @@ const AddTaskForm = () => {
         setErrorMessage("All fields are required!");
         return;
       }
-      if (title.length > 10) {
-        setErrorMessage("Title must be less then 5 characters long.");
+      if (title.length < 3) {
+        setErrorMessage("Title must be grater then 3 characters long.");
         return;
       }
       // Prepare the TaskObject to be sent in the request body
